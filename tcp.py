@@ -62,6 +62,7 @@ def initHeaders():
 
 def handleStatusCodes(status_code):
 	global request_counter
+	time.sleep(2)
 	sys.stdout.write("\033[100m \033[40m\r%i Target\033[0m" % request_counter) 
 	sys.stdout.flush()
 	print(f"\033[33m "+str(url)+"\033[38;5;1m runing\033[0m")
