@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 import os
 import sys
 import time
@@ -11,7 +10,6 @@ import threading
 from datetime import datetime
 from django.core.validators import validate_ipv46_address
 from django.core.exceptions import ValidationError
-
 
 
 LOG_FILE = "attack_log.txt"
