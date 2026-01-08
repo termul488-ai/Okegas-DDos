@@ -38,17 +38,22 @@ logo = """
 """
 faded_text = fade.fire(logo)
 print(faded_text)
-while attemps < 100:
-    username = input("\033[32mEnter your username: \033[0m")
-    password = input("\033[31mEnter your password: \033[0m")
+print(f"\r\033[97m╔{'═' * 71}╗")
+print(f"\r\033[97m║\033[32m   v.1.0{' ' * 63}\033[97m║")
+print(f"\r\033[97m║\033[32m   https://kunkaffa@gmail.com{' ' * 42}\033[97m║")
+print(f"\r\033[97m╚{'═' * 71}╝")
+    while attemps < 100:
+        print("\033[32m┏━━KunFayz━━⬣")
+        username = input("\033[32m┗> Enter your username: \033[0m")
+        password = input("\033[32m┗> Enter your password: \033[0m")
 
-    if username == 'bp4' and password == 'bp4':
-        print("\033[32m⟩⟩ Hai...! Welcome to zona attack BLACKPHANTER \033[0m")
-        break
-    else:
-        print('Incorrect credentials. Check if you have Caps lock on and try again.')
-        attemps += 1
-        continue
+        if username == 'admin' and password == 'admin':
+            print("\033[100m \033[31m••> WELOCOME TO ZONA ADMIN HACK \033[0m")
+            break
+        else:
+            print('Incorrect credentials. Check if you have Caps lock on and try again.')
+            attemps += 1
+            continue
 
 host=''
 headers_useragents=[]
